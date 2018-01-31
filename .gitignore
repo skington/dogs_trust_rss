@@ -1,0 +1,51 @@
+# From https://github.com/github/gitignore/blob/master/Perl.gitignore
+blib/
+.build/
+_build/
+cover_db/
+inc/
+Build
+Build.bat
+.last_cover_stats
+Makefile
+Makefile.old
+MANIFEST.bak
+META.yml
+MYMETA.yml
+nytprof.out*
+nytprof/
+pm_to_blib
+
+
+# From: https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+.*
+!.gitignore
+*~
+.directory
+
+
+# From https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+
+# From https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+.dir-locals.el
+
+# From https://github.com/github/gitignore/blob/master/Global/vim.gitignore
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# Don't cache the RSS feeds
+feed-*.rss
